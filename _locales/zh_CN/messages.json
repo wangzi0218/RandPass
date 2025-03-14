@@ -1,0 +1,218 @@
+{
+  "extName": {
+    "message": "RandPass",
+    "description": "扩展名称"
+  },
+  "extDescription": {
+    "message": "一个现代化、优雅的随机密码生成器，提供多种配置选项",
+    "description": "扩展描述"
+  },
+  "appName": {
+    "message": "RandPass",
+    "description": "应用名称"
+  },
+  "randomTab": {
+    "message": "随机",
+    "description": "随机标签页标签"
+  },
+  "memorableTab": {
+    "message": "助记",
+    "description": "助记标签页标签"
+  },
+  "pinTab": {
+    "message": "PIN",
+    "description": "PIN标签页标签"
+  },
+  "memorableOptions": {
+    "message": "助记密码选项",
+    "description": "助记密码选项标题"
+  },
+  "capitalizeWords": {
+    "message": "首字母大写",
+    "description": "首字母大写选项"
+  },
+  "allUppercase": {
+    "message": "全部大写",
+    "description": "全部大写选项"
+  },
+  "substituteChars": {
+    "message": "字母替换为符号",
+    "description": "字母替换为符号选项"
+  },
+  "separator": {
+    "message": "单词分隔符",
+    "description": "单词分隔符标签"
+  },
+  "customizePassword": {
+    "message": "自定义您的新密码",
+    "description": "密码自定义部分的标题"
+  },
+  "generatedPassword": {
+    "message": "生成的密码",
+    "description": "生成的密码标签"
+  },
+  "passwordLength": {
+    "message": "密码长度",
+    "description": "密码长度滑块的标签"
+  },
+  "wordCount": {
+    "message": "单词数量",
+    "description": "单词数量滑块的标签"
+  },
+  "pinLength": {
+    "message": "PIN码长度",
+    "description": "PIN码长度滑块的标签"
+  },
+  "characters": {
+    "message": "字符",
+    "description": "密码长度的单位"
+  },
+  "numbers": {
+    "message": "数字 (0-9)",
+    "description": "数字选项的标签"
+  },
+  "uppercase": {
+    "message": "大写字母 (A-Z)",
+    "description": "大写字母选项的标签"
+  },
+  "lowercase": {
+    "message": "小写字母 (a-z)",
+    "description": "小写字母选项的标签"
+  },
+  "symbols": {
+    "message": "特殊符号 (!@#$)",
+    "description": "特殊符号选项的标签"
+  },
+  "excludeSimilar": {
+    "message": "排除相似字符 (i, l, 1, o, 0)",
+    "description": "排除相似字符选项的标签"
+  },
+  "advancedOptions": {
+    "message": "高级选项",
+    "description": "高级选项部分的标签"
+  },
+  "noRepeat": {
+    "message": "不允许字符重复",
+    "description": "不允许字符重复选项的标签"
+  },
+  "noAdjacentNumbers": {
+    "message": "数字不相邻",
+    "description": "数字不相邻选项的标签"
+  },
+  "strength": {
+    "message": "强度",
+    "description": "密码强度指示器的标签"
+  },
+  "veryWeak": {
+    "message": "非常弱",
+    "description": "密码强度：非常弱"
+  },
+  "weak": {
+    "message": "弱",
+    "description": "密码强度：弱"
+  },
+  "good": {
+    "message": "良好",
+    "description": "密码强度：良好"
+  },
+  "excellent": {
+    "message": "优秀",
+    "description": "密码强度：优秀"
+  },
+  "veryStrong": {
+    "message": "非常强",
+    "description": "密码强度：非常强"
+  },
+  "none": {
+    "message": "无",
+    "description": "无标签"
+  },
+  "passwordHistory": {
+    "message": "密码历史",
+    "description": "密码历史部分的标签"
+  },
+  "saveHistory": {
+    "message": "保存历史记录",
+    "description": "保存历史记录开关的标签"
+  },
+  "syncHistory": {
+    "message": "同步历史记录",
+    "description": "同步历史记录到Chrome账户"
+  },
+  "clearHistory": {
+    "message": "清除历史记录",
+    "description": "清除历史记录按钮的标签"
+  },
+  "noHistory": {
+    "message": "无历史记录",
+    "description": "历史记录为空时显示的文本"
+  },
+  "generate": {
+    "message": "生成",
+    "description": "生成按钮的标签"
+  },
+  "copy": {
+    "message": "复制",
+    "description": "复制按钮的标签"
+  },
+  "turboModeTitle": {
+    "message": "极速密码生成器",
+    "description": "极速模式下显示的标题"
+  },
+  "turboModeLabel": {
+    "message": "极速模式",
+    "description": "极速模式下显示在RandPass旁边的标签"
+  },
+  "turboModeDescription": {
+    "message": "一键生成高强度密码",
+    "description": "极速模式的描述"
+  },
+  "generateAndCopy": {
+    "message": "生成并复制",
+    "description": "极速模式下生成并复制按钮的文本"
+  },
+  "copied": {
+    "message": "已复制！",
+    "description": "复制后显示的文本"
+  },
+  "selectAtLeastOne": {
+    "message": "请至少选择一种字符类型",
+    "description": "未选择字符类型时的错误消息"
+  },
+  "lengthExceedsAvailable": {
+    "message": "长度不能超过可用字符数",
+    "description": "长度超过可用字符数时的错误消息"
+  },
+  "multiplePasswords": {
+    "message": "多个密码",
+    "description": "多个密码选项的标签"
+  },
+  "words": {
+    "message": "个单词",
+    "description": "单词数量的单位"
+  },
+  "digits": {
+    "message": "位数字",
+    "description": "PIN码长度的单位"
+  },
+  "darkMode": {
+    "message": "深色模式",
+    "description": "深色模式切换开关的标签"
+  },
+  "turboMode": {
+    "message": "极速模式",
+    "description": "极速模式切换开关的标签"
+  },
+  "passwordCopied": {
+    "message": "密码已生成并复制",
+    "description": "密码复制成功的提示"
+  },
+  "passwordGenerated": {
+    "message": "密码已生成并复制到剪贴板",
+    "description": "密码生成并复制时的通知"
+  },
+  "generateButton": {
+    "message": "RandPass",
+    "description": "密码输入框旁边的生成按钮文本"
+  }
+}

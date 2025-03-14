@@ -1,0 +1,218 @@
+{
+  "extName": {
+    "message": "RandPass",
+    "description": "拡張機能の名前"
+  },
+  "extDescription": {
+    "message": "複数の設定オプションを備えた、モダンでエレガントなランダムパスワードジェネレーター",
+    "description": "拡張機能の説明"
+  },
+  "appName": {
+    "message": "RandPass",
+    "description": "アプリ名"
+  },
+  "randomTab": {
+    "message": "ランダム",
+    "description": "ランダムタブのラベル"
+  },
+  "memorableTab": {
+    "message": "覚えやすい",
+    "description": "覚えやすいタブのラベル"
+  },
+  "pinTab": {
+    "message": "PIN",
+    "description": "PINタブのラベル"
+  },
+  "memorableOptions": {
+    "message": "覚えやすいパスワードのオプション",
+    "description": "覚えやすいパスワードオプションのタイトル"
+  },
+  "capitalizeWords": {
+    "message": "最初の文字を大文字にする",
+    "description": "最初の文字を大文字にするオプション"
+  },
+  "allUppercase": {
+    "message": "すべて大文字",
+    "description": "すべて大文字オプション"
+  },
+  "substituteChars": {
+    "message": "文字を記号に置き換える",
+    "description": "文字を記号に置き換えるオプション"
+  },
+  "separator": {
+    "message": "単語の区切り文字",
+    "description": "単語の区切り文字のラベル"
+  },
+  "customizePassword": {
+    "message": "新しいパスワードをカスタマイズする",
+    "description": "パスワードカスタマイズセクションのタイトル"
+  },
+  "generatedPassword": {
+    "message": "生成されたパスワード",
+    "description": "生成されたパスワードのラベル"
+  },
+  "passwordLength": {
+    "message": "パスワードの長さ",
+    "description": "パスワード長スライダーのラベル"
+  },
+  "wordCount": {
+    "message": "単語数",
+    "description": "単語数スライダーのラベル"
+  },
+  "pinLength": {
+    "message": "PINの長さ",
+    "description": "PIN長スライダーのラベル"
+  },
+  "characters": {
+    "message": "文字",
+    "description": "パスワード長の単位"
+  },
+  "numbers": {
+    "message": "数字 (0-9)",
+    "description": "数字オプションのラベル"
+  },
+  "uppercase": {
+    "message": "大文字 (A-Z)",
+    "description": "大文字オプションのラベル"
+  },
+  "lowercase": {
+    "message": "小文字 (a-z)",
+    "description": "小文字オプションのラベル"
+  },
+  "symbols": {
+    "message": "記号 (!@#$)",
+    "description": "記号オプションのラベル"
+  },
+  "excludeSimilar": {
+    "message": "似た文字を除外する (i, l, 1, o, 0)",
+    "description": "似た文字を除外するオプションのラベル"
+  },
+  "advancedOptions": {
+    "message": "詳細オプション",
+    "description": "詳細オプションセクションのラベル"
+  },
+  "noRepeat": {
+    "message": "文字の繰り返しなし",
+    "description": "文字の繰り返しなしオプションのラベル"
+  },
+  "noAdjacentNumbers": {
+    "message": "隣接する数字なし",
+    "description": "隣接する数字なしオプションのラベル"
+  },
+  "strength": {
+    "message": "強度",
+    "description": "パスワード強度インジケータのラベル"
+  },
+  "veryWeak": {
+    "message": "非常に弱い",
+    "description": "パスワード強度：非常に弱い"
+  },
+  "weak": {
+    "message": "弱い",
+    "description": "パスワード強度：弱い"
+  },
+  "good": {
+    "message": "良い",
+    "description": "パスワード強度：良い"
+  },
+  "excellent": {
+    "message": "優れている",
+    "description": "パスワード強度：優れている"
+  },
+  "veryStrong": {
+    "message": "非常に強い",
+    "description": "パスワード強度：非常に強い"
+  },
+  "none": {
+    "message": "なし",
+    "description": "なしラベル"
+  },
+  "passwordHistory": {
+    "message": "パスワード履歴",
+    "description": "パスワード履歴セクションのラベル"
+  },
+  "saveHistory": {
+    "message": "履歴を保存",
+    "description": "履歴保存トグルのラベル"
+  },
+  "syncHistory": {
+    "message": "履歴を同期",
+    "description": "パスワード履歴をChromeアカウントと同期する"
+  },
+  "clearHistory": {
+    "message": "履歴をクリア",
+    "description": "履歴クリアボタンのラベル"
+  },
+  "noHistory": {
+    "message": "履歴なし",
+    "description": "履歴が空の場合に表示されるテキスト"
+  },
+  "generate": {
+    "message": "生成",
+    "description": "生成ボタンのラベル"
+  },
+  "copy": {
+    "message": "コピー",
+    "description": "コピーボタンのラベル"
+  },
+  "copied": {
+    "message": "コピーしました！",
+    "description": "コピー後に表示されるテキスト"
+  },
+  "selectAtLeastOne": {
+    "message": "少なくとも1つの文字タイプを選択してください",
+    "description": "文字タイプが選択されていない場合のエラーメッセージ"
+  },
+  "lengthExceedsAvailable": {
+    "message": "長さは利用可能な文字数を超えることはできません",
+    "description": "長さが利用可能な文字数を超える場合のエラーメッセージ"
+  },
+  "multiplePasswords": {
+    "message": "複数のパスワード",
+    "description": "複数のパスワードオプションのラベル"
+  },
+  "words": {
+    "message": "単語",
+    "description": "単語数の単位"
+  },
+  "digits": {
+    "message": "桁",
+    "description": "PIN長の単位"
+  },
+  "darkMode": {
+    "message": "ダークモード",
+    "description": "ダークモード切り替えスイッチのラベル"
+  },
+  "turboMode": {
+    "message": "ターボモード",
+    "description": "ターボモード切り替えスイッチのラベル"
+  },
+  "turboModeTitle": {
+    "message": "RandPass ターボ",
+    "description": "ターボモードで表示されるタイトル"
+  },
+  "turboModeLabel": {
+    "message": "ターボモード",
+    "description": "ターボモードでRandPassの隣に表示されるラベル"
+  },
+  "turboModeDescription": {
+    "message": "ワンクリックで強力なパスワード",
+    "description": "ターボモードの説明"
+  },
+  "generateAndCopy": {
+    "message": "生成してコピー",
+    "description": "ターボモードでの生成とコピーのボタンテキスト"
+  },
+  "passwordCopied": {
+    "message": "パスワードが生成され、コピーされました",
+    "description": "パスワードがコピーされたときの通知"
+  },
+  "passwordGenerated": {
+    "message": "パスワードが生成され、クリップボードにコピーされました",
+    "description": "パスワードが生成され、コピーされたときの通知"
+  },
+  "generateButton": {
+    "message": "RandPass",
+    "description": "パスワードフィールドの隣の生成ボタンのテキスト"
+  }
+}

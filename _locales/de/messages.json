@@ -1,0 +1,218 @@
+{
+  "extName": {
+    "message": "RandPass",
+    "description": "Name der Erweiterung"
+  },
+  "extDescription": {
+    "message": "Ein moderner und eleganter Zufallspasswortgenerator mit mehreren Konfigurationsoptionen",
+    "description": "Beschreibung der Erweiterung"
+  },
+  "appName": {
+    "message": "RandPass",
+    "description": "Name der Anwendung"
+  },
+  "randomTab": {
+    "message": "Zufällig",
+    "description": "Bezeichnung für den Zufalls-Tab"
+  },
+  "memorableTab": {
+    "message": "Merkbar",
+    "description": "Bezeichnung für den merkbaren Tab"
+  },
+  "pinTab": {
+    "message": "PIN",
+    "description": "Bezeichnung für den PIN-Tab"
+  },
+  "memorableOptions": {
+    "message": "Optionen für merkbare Passwörter",
+    "description": "Titel für merkbare Passwortoptionen"
+  },
+  "capitalizeWords": {
+    "message": "Ersten Buchstaben großschreiben",
+    "description": "Option für Großschreibung des ersten Buchstabens"
+  },
+  "allUppercase": {
+    "message": "Alles in Großbuchstaben",
+    "description": "Option für vollständige Großschreibung"
+  },
+  "substituteChars": {
+    "message": "Buchstaben durch Symbole ersetzen",
+    "description": "Option zum Ersetzen von Buchstaben durch Symbole"
+  },
+  "separator": {
+    "message": "Wort-Trennzeichen",
+    "description": "Bezeichnung für Wort-Trennzeichen"
+  },
+  "customizePassword": {
+    "message": "Passen Sie Ihr neues Passwort an",
+    "description": "Titel für den Bereich der Passwortanpassung"
+  },
+  "generatedPassword": {
+    "message": "Generiertes Passwort",
+    "description": "Bezeichnung für generiertes Passwort"
+  },
+  "passwordLength": {
+    "message": "Passwortlänge",
+    "description": "Bezeichnung für den Passwortlängen-Schieberegler"
+  },
+  "wordCount": {
+    "message": "Anzahl der Wörter",
+    "description": "Bezeichnung für den Wortanzahl-Schieberegler"
+  },
+  "pinLength": {
+    "message": "PIN-Länge",
+    "description": "Bezeichnung für den PIN-Längen-Schieberegler"
+  },
+  "characters": {
+    "message": "Zeichen",
+    "description": "Einheit für die Passwortlänge"
+  },
+  "numbers": {
+    "message": "Zahlen (0-9)",
+    "description": "Bezeichnung für die Zahlenoption"
+  },
+  "uppercase": {
+    "message": "Großbuchstaben (A-Z)",
+    "description": "Bezeichnung für die Großbuchstabenoption"
+  },
+  "lowercase": {
+    "message": "Kleinbuchstaben (a-z)",
+    "description": "Bezeichnung für die Kleinbuchstabenoption"
+  },
+  "symbols": {
+    "message": "Symbole (!@#$)",
+    "description": "Bezeichnung für die Symboloption"
+  },
+  "excludeSimilar": {
+    "message": "Ähnliche Zeichen ausschließen (i, l, 1, o, 0)",
+    "description": "Bezeichnung für die Option zum Ausschließen ähnlicher Zeichen"
+  },
+  "advancedOptions": {
+    "message": "Erweiterte Optionen",
+    "description": "Bezeichnung für den Bereich der erweiterten Optionen"
+  },
+  "noRepeat": {
+    "message": "Keine wiederholten Zeichen",
+    "description": "Bezeichnung für die Option keine wiederholten Zeichen"
+  },
+  "noAdjacentNumbers": {
+    "message": "Keine benachbarten Zahlen",
+    "description": "Bezeichnung für die Option keine benachbarten Zahlen"
+  },
+  "strength": {
+    "message": "Stärke",
+    "description": "Bezeichnung für den Passwort-Stärkeindikator"
+  },
+  "veryWeak": {
+    "message": "Sehr schwach",
+    "description": "Passwortstärke: sehr schwach"
+  },
+  "weak": {
+    "message": "Schwach",
+    "description": "Passwortstärke: schwach"
+  },
+  "good": {
+    "message": "Gut",
+    "description": "Passwortstärke: gut"
+  },
+  "excellent": {
+    "message": "Ausgezeichnet",
+    "description": "Passwortstärke: ausgezeichnet"
+  },
+  "veryStrong": {
+    "message": "Sehr stark",
+    "description": "Passwortstärke: sehr stark"
+  },
+  "none": {
+    "message": "Keine",
+    "description": "Bezeichnung für keine"
+  },
+  "passwordHistory": {
+    "message": "Passwort-Verlauf",
+    "description": "Bezeichnung für den Bereich des Passwort-Verlaufs"
+  },
+  "saveHistory": {
+    "message": "Verlauf speichern",
+    "description": "Bezeichnung für den Schalter zum Speichern des Verlaufs"
+  },
+  "syncHistory": {
+    "message": "Verlauf synchronisieren",
+    "description": "Passwort-Verlauf mit Chrome-Konto synchronisieren"
+  },
+  "clearHistory": {
+    "message": "Verlauf löschen",
+    "description": "Bezeichnung für die Schaltfläche zum Löschen des Verlaufs"
+  },
+  "noHistory": {
+    "message": "Kein Verlauf",
+    "description": "Text, der angezeigt wird, wenn der Verlauf leer ist"
+  },
+  "generate": {
+    "message": "Generieren",
+    "description": "Bezeichnung für die Generieren-Schaltfläche"
+  },
+  "copy": {
+    "message": "Kopieren",
+    "description": "Bezeichnung für die Kopieren-Schaltfläche"
+  },
+  "copied": {
+    "message": "Kopiert!",
+    "description": "Text, der nach dem Kopieren angezeigt wird"
+  },
+  "selectAtLeastOne": {
+    "message": "Bitte wählen Sie mindestens einen Zeichentyp aus",
+    "description": "Fehlermeldung, wenn kein Zeichentyp ausgewählt ist"
+  },
+  "lengthExceedsAvailable": {
+    "message": "Die Länge darf die verfügbaren Zeichen nicht überschreiten",
+    "description": "Fehlermeldung, wenn die Länge die verfügbaren Zeichen überschreitet"
+  },
+  "multiplePasswords": {
+    "message": "Mehrere Passwörter",
+    "description": "Bezeichnung für die Option mehrere Passwörter"
+  },
+  "words": {
+    "message": "Wörter",
+    "description": "Einheit für die Wortanzahl"
+  },
+  "digits": {
+    "message": "Ziffern",
+    "description": "Einheit für die PIN-Länge"
+  },
+  "darkMode": {
+    "message": "Dunkelmodus",
+    "description": "Bezeichnung für den Dunkelmodus-Schalter"
+  },
+  "turboMode": {
+    "message": "Turbo-Modus",
+    "description": "Bezeichnung für den Turbo-Modus-Schalter"
+  },
+  "turboModeTitle": {
+    "message": "RandPass Turbo",
+    "description": "Titel im Turbo-Modus"
+  },
+  "turboModeLabel": {
+    "message": "Turbo-Modus",
+    "description": "Bezeichnung neben RandPass im Turbo-Modus"
+  },
+  "turboModeDescription": {
+    "message": "Starkes Passwort mit einem Klick",
+    "description": "Beschreibung für den Turbo-Modus"
+  },
+  "generateAndCopy": {
+    "message": "Generieren & Kopieren",
+    "description": "Schaltflächentext für Generieren und Kopieren im Turbo-Modus"
+  },
+  "passwordCopied": {
+    "message": "Passwort generiert und kopiert",
+    "description": "Benachrichtigung, wenn das Passwort kopiert wurde"
+  },
+  "passwordGenerated": {
+    "message": "Passwort generiert und in die Zwischenablage kopiert",
+    "description": "Benachrichtigung, wenn das Passwort generiert und kopiert wurde"
+  },
+  "generateButton": {
+    "message": "RandPass",
+    "description": "Text auf der Schaltfläche neben Passwortfeldern"
+  }
+}

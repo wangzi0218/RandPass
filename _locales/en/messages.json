@@ -1,0 +1,218 @@
+{
+  "extName": {
+    "message": "RandPass",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "A modern and elegant random password generator with multiple configuration options",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "RandPass",
+    "description": "App name"
+  },
+  "randomTab": {
+    "message": "Random",
+    "description": "Random tab label"
+  },
+  "memorableTab": {
+    "message": "Memorable",
+    "description": "Memorable tab label"
+  },
+  "pinTab": {
+    "message": "PIN",
+    "description": "PIN tab label"
+  },
+  "memorableOptions": {
+    "message": "Memorable Password Options",
+    "description": "Memorable password options title"
+  },
+  "capitalizeWords": {
+    "message": "Capitalize First Letter",
+    "description": "Capitalize first letter option"
+  },
+  "allUppercase": {
+    "message": "All Uppercase",
+    "description": "All uppercase option"
+  },
+  "substituteChars": {
+    "message": "Replace Letters with Symbols",
+    "description": "Replace letters with symbols option"
+  },
+  "separator": {
+    "message": "Word Separator",
+    "description": "Word separator label"
+  },
+  "customizePassword": {
+    "message": "Customize Your New Password",
+    "description": "Title for password customization section"
+  },
+  "generatedPassword": {
+    "message": "Generated Password",
+    "description": "Generated password label"
+  },
+  "passwordLength": {
+    "message": "Password Length",
+    "description": "Label for password length slider"
+  },
+  "wordCount": {
+    "message": "Number of Words",
+    "description": "Label for word count slider"
+  },
+  "pinLength": {
+    "message": "PIN Length",
+    "description": "Label for PIN length slider"
+  },
+  "characters": {
+    "message": "Characters",
+    "description": "Unit for password length"
+  },
+  "numbers": {
+    "message": "Numbers (0-9)",
+    "description": "Label for numbers option"
+  },
+  "uppercase": {
+    "message": "Uppercase (A-Z)",
+    "description": "Label for uppercase letters option"
+  },
+  "lowercase": {
+    "message": "Lowercase (a-z)",
+    "description": "Label for lowercase letters option"
+  },
+  "symbols": {
+    "message": "Symbols (!@#$)",
+    "description": "Label for symbols option"
+  },
+  "excludeSimilar": {
+    "message": "Exclude similar characters (i, l, 1, o, 0)",
+    "description": "Exclude similar characters option"
+  },
+  "advancedOptions": {
+    "message": "Advanced Options",
+    "description": "Label for advanced options section"
+  },
+  "noRepeat": {
+    "message": "No repeated characters",
+    "description": "Label for no character repetition option"
+  },
+  "noAdjacentNumbers": {
+    "message": "No adjacent numbers",
+    "description": "Label for no adjacent numbers option"
+  },
+  "strength": {
+    "message": "Strength",
+    "description": "Label for password strength indicator"
+  },
+  "veryWeak": {
+    "message": "Very Weak",
+    "description": "Password strength: very weak"
+  },
+  "weak": {
+    "message": "Weak",
+    "description": "Password strength: weak"
+  },
+  "good": {
+    "message": "Good",
+    "description": "Password strength: good"
+  },
+  "excellent": {
+    "message": "Excellent",
+    "description": "Password strength: excellent"
+  },
+  "veryStrong": {
+    "message": "Very Strong",
+    "description": "Password strength: very strong"
+  },
+  "none": {
+    "message": "None",
+    "description": "None label"
+  },
+  "passwordHistory": {
+    "message": "Password History",
+    "description": "Label for password history section"
+  },
+  "saveHistory": {
+    "message": "Save history",
+    "description": "Label for save history toggle"
+  },
+  "syncHistory": {
+    "message": "Sync history",
+    "description": "Sync password history to Chrome account"
+  },
+  "clearHistory": {
+    "message": "Clear History",
+    "description": "Label for clear history button"
+  },
+  "noHistory": {
+    "message": "No History",
+    "description": "Text shown when history is empty"
+  },
+  "generate": {
+    "message": "Generate",
+    "description": "Label for generate button"
+  },
+  "copy": {
+    "message": "Copy",
+    "description": "Label for copy button"
+  },
+  "turboModeTitle": {
+    "message": "RandPass Turbo",
+    "description": "Title displayed in turbo mode"
+  },
+  "turboModeLabel": {
+    "message": "Turbo Mode",
+    "description": "Label displayed next to RandPass in turbo mode"
+  },
+  "turboModeDescription": {
+    "message": "One-click Strong Password",
+    "description": "Description for turbo mode"
+  },
+  "generateAndCopy": {
+    "message": "Generate & Copy",
+    "description": "Button text for generate and copy in turbo mode"
+  },
+  "copied": {
+    "message": "Copied!",
+    "description": "Text shown after copying"
+  },
+  "selectAtLeastOne": {
+    "message": "Please select at least one character type",
+    "description": "Error message when no character type is selected"
+  },
+  "lengthExceedsAvailable": {
+    "message": "Length cannot exceed available characters",
+    "description": "Error message when length exceeds available characters"
+  },
+  "multiplePasswords": {
+    "message": "Multiple Passwords",
+    "description": "Label for multiple passwords option"
+  },
+  "words": {
+    "message": "Words",
+    "description": "Unit for word count"
+  },
+  "digits": {
+    "message": "Digits",
+    "description": "Unit for PIN length"
+  },
+  "darkMode": {
+    "message": "Dark Mode",
+    "description": "Label for dark mode toggle"
+  },
+  "turboMode": {
+    "message": "Turbo Mode",
+    "description": "Label for turbo mode toggle"
+  },
+  "passwordCopied": {
+    "message": "Password generated and copied",
+    "description": "Notification when password is copied"
+  },
+  "passwordGenerated": {
+    "message": "Password generated and copied to clipboard",
+    "description": "Notification when password is generated and copied"
+  },
+  "generateButton": {
+    "message": "RandPass",
+    "description": "Text on the generate button next to password fields"
+  }
+}

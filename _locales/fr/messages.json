@@ -1,0 +1,218 @@
+{
+  "extName": {
+    "message": "RandPass",
+    "description": "Nom de l'extension"
+  },
+  "extDescription": {
+    "message": "Un générateur de mots de passe aléatoires moderne et élégant avec plusieurs options de configuration",
+    "description": "Description de l'extension"
+  },
+  "appName": {
+    "message": "RandPass",
+    "description": "Nom de l'application"
+  },
+  "randomTab": {
+    "message": "Aléatoire",
+    "description": "Étiquette de l'onglet aléatoire"
+  },
+  "memorableTab": {
+    "message": "Mémorisable",
+    "description": "Étiquette de l'onglet mémorisable"
+  },
+  "pinTab": {
+    "message": "PIN",
+    "description": "Étiquette de l'onglet PIN"
+  },
+  "memorableOptions": {
+    "message": "Options de mot de passe mémorisable",
+    "description": "Titre des options de mot de passe mémorisable"
+  },
+  "capitalizeWords": {
+    "message": "Majuscule à la première lettre",
+    "description": "Option de majuscule à la première lettre"
+  },
+  "allUppercase": {
+    "message": "Tout en majuscules",
+    "description": "Option tout en majuscules"
+  },
+  "substituteChars": {
+    "message": "Remplacer les lettres par des symboles",
+    "description": "Option de remplacement des lettres par des symboles"
+  },
+  "separator": {
+    "message": "Séparateur de mots",
+    "description": "Étiquette du séparateur de mots"
+  },
+  "customizePassword": {
+    "message": "Personnalisez votre nouveau mot de passe",
+    "description": "Titre de la section de personnalisation du mot de passe"
+  },
+  "generatedPassword": {
+    "message": "Mot de passe généré",
+    "description": "Étiquette du mot de passe généré"
+  },
+  "passwordLength": {
+    "message": "Longueur du mot de passe",
+    "description": "Étiquette du curseur de longueur du mot de passe"
+  },
+  "wordCount": {
+    "message": "Nombre de mots",
+    "description": "Étiquette du curseur de nombre de mots"
+  },
+  "pinLength": {
+    "message": "Longueur du PIN",
+    "description": "Étiquette du curseur de longueur du PIN"
+  },
+  "characters": {
+    "message": "Caractères",
+    "description": "Unité pour la longueur du mot de passe"
+  },
+  "numbers": {
+    "message": "Chiffres (0-9)",
+    "description": "Étiquette de l'option chiffres"
+  },
+  "uppercase": {
+    "message": "Majuscules (A-Z)",
+    "description": "Étiquette de l'option lettres majuscules"
+  },
+  "lowercase": {
+    "message": "Minuscules (a-z)",
+    "description": "Étiquette de l'option lettres minuscules"
+  },
+  "symbols": {
+    "message": "Symboles (!@#$)",
+    "description": "Étiquette de l'option symboles"
+  },
+  "excludeSimilar": {
+    "message": "Exclure les caractères similaires (i, l, 1, o, 0)",
+    "description": "Étiquette de l'option d'exclusion des caractères similaires"
+  },
+  "advancedOptions": {
+    "message": "Options avancées",
+    "description": "Étiquette de la section des options avancées"
+  },
+  "noRepeat": {
+    "message": "Pas de caractères répétés",
+    "description": "Étiquette de l'option pas de caractères répétés"
+  },
+  "noAdjacentNumbers": {
+    "message": "Pas de chiffres adjacents",
+    "description": "Étiquette de l'option pas de chiffres adjacents"
+  },
+  "strength": {
+    "message": "Force",
+    "description": "Étiquette de l'indicateur de force du mot de passe"
+  },
+  "veryWeak": {
+    "message": "Très faible",
+    "description": "Force du mot de passe: très faible"
+  },
+  "weak": {
+    "message": "Faible",
+    "description": "Force du mot de passe: faible"
+  },
+  "good": {
+    "message": "Bon",
+    "description": "Force du mot de passe: bon"
+  },
+  "excellent": {
+    "message": "Excellent",
+    "description": "Force du mot de passe: excellent"
+  },
+  "veryStrong": {
+    "message": "Très fort",
+    "description": "Force du mot de passe: très fort"
+  },
+  "none": {
+    "message": "Aucun",
+    "description": "Étiquette aucun"
+  },
+  "passwordHistory": {
+    "message": "Historique des mots de passe",
+    "description": "Étiquette de la section d'historique des mots de passe"
+  },
+  "saveHistory": {
+    "message": "Enregistrer l'historique",
+    "description": "Étiquette du commutateur d'enregistrement de l'historique"
+  },
+  "syncHistory": {
+    "message": "Synchroniser l'historique",
+    "description": "Synchroniser l'historique des mots de passe avec le compte Chrome"
+  },
+  "clearHistory": {
+    "message": "Effacer l'historique",
+    "description": "Étiquette du bouton d'effacement de l'historique"
+  },
+  "noHistory": {
+    "message": "Pas d'historique",
+    "description": "Texte affiché lorsque l'historique est vide"
+  },
+  "generate": {
+    "message": "Générer",
+    "description": "Étiquette du bouton de génération"
+  },
+  "copy": {
+    "message": "Copier",
+    "description": "Étiquette du bouton de copie"
+  },
+  "copied": {
+    "message": "Copié !",
+    "description": "Texte affiché après la copie"
+  },
+  "selectAtLeastOne": {
+    "message": "Veuillez sélectionner au moins un type de caractère",
+    "description": "Message d'erreur lorsqu'aucun type de caractère n'est sélectionné"
+  },
+  "lengthExceedsAvailable": {
+    "message": "La longueur ne peut pas dépasser les caractères disponibles",
+    "description": "Message d'erreur lorsque la longueur dépasse les caractères disponibles"
+  },
+  "multiplePasswords": {
+    "message": "Mots de passe multiples",
+    "description": "Étiquette de l'option de mots de passe multiples"
+  },
+  "words": {
+    "message": "Mots",
+    "description": "Unité pour le nombre de mots"
+  },
+  "digits": {
+    "message": "Chiffres",
+    "description": "Unité pour la longueur du PIN"
+  },
+  "darkMode": {
+    "message": "Mode sombre",
+    "description": "Étiquette pour le commutateur de mode sombre"
+  },
+  "turboMode": {
+    "message": "Mode Turbo",
+    "description": "Étiquette pour le commutateur de mode turbo"
+  },
+  "turboModeTitle": {
+    "message": "RandPass Turbo",
+    "description": "Titre affiché en mode turbo"
+  },
+  "turboModeLabel": {
+    "message": "Mode Turbo",
+    "description": "Étiquette affichée à côté de RandPass en mode turbo"
+  },
+  "turboModeDescription": {
+    "message": "Mot de passe fort en un clic",
+    "description": "Description du mode turbo"
+  },
+  "generateAndCopy": {
+    "message": "Générer & Copier",
+    "description": "Texte du bouton pour générer et copier en mode turbo"
+  },
+  "passwordCopied": {
+    "message": "Mot de passe généré et copié",
+    "description": "Notification lorsque le mot de passe est copié"
+  },
+  "passwordGenerated": {
+    "message": "Mot de passe généré et copié dans le presse-papiers",
+    "description": "Notification lorsque le mot de passe est généré et copié"
+  },
+  "generateButton": {
+    "message": "RandPass",
+    "description": "Texte sur le bouton de génération à côté des champs de mot de passe"
+  }
+}
