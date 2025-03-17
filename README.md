@@ -33,8 +33,9 @@ RandPass 是一个现代化、功能丰富的密码生成器 Chrome 扩展，提
   - 可自定义单词分隔符
 
 - **PIN 码选项**：
-  - 可调节 PIN 码长度（4-12 位）
+  - 可调节 PIN 码长度（4-8 位）
   - 可启用数字不相邻选项，提高安全性
+  - 可启用不重复字符选项，确保每个数字只出现一次
 
 #### 安全与隐私
 - **本地生成**：所有密码完全在您的设备上生成，不会通过网络传输，杜绝泄露风险
@@ -147,8 +148,9 @@ RandPass is a modern, feature-rich password generator Chrome extension that offe
   - Customizable word separators
 
 - **PIN Code Options**:
-  - Adjustable PIN length (4-12 digits)
+  - Adjustable PIN length (4-8 digits)
   - Option to prevent adjacent identical digits for enhanced security
+  - Option to prevent digit repetition, ensuring each digit appears only once
 
 #### Security and Privacy
 - **Local Generation**: All passwords are created entirely on your device, never transmitted over the network, eliminating leak risks

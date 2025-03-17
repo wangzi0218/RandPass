@@ -619,6 +619,11 @@ document.addEventListener('DOMContentLoaded', function() {
       if (pinOptionsEl) pinOptionsEl.classList.remove('hidden');
       if (adjacentNumbersOptionsEl) adjacentNumbersOptionsEl.classList.remove('hidden');
       
+      // 显示PIN模式特有的选项
+      document.querySelectorAll('.pin-mode-only').forEach(el => {
+        el.classList.remove('hidden');
+      });
+      
       // 禁用不适用于 PIN 的选项
       if (uppercaseEl && uppercaseEl.type !== 'hidden') {
         uppercaseEl.checked = false;
