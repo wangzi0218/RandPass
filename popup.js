@@ -456,6 +456,36 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 2000);
   }
   
+  // 创建一个简单的音效函数
+  function playPopSound() {
+    try {
+      // 使用 AudioContext 创建一个简单的“弹出”声音
+      const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+      const oscillator = audioContext.createOscillator();
+      const gainNode = audioContext.createGain();
+      
+      // 设置音调和音量
+      oscillator.type = 'sine';
+      oscillator.frequency.setValueAtTime(800, audioContext.currentTime); // 较高的频率
+      oscillator.frequency.exponentialRampToValueAtTime(300, audioContext.currentTime + 0.1); // 快速降低频率
+      
+      // 设置音量包络
+      gainNode.gain.setValueAtTime(0.1, audioContext.currentTime); // 轻微的音量
+      gainNode.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.1); // 快速衰减
+      
+      // 连接节点
+      oscillator.connect(gainNode);
+      gainNode.connect(audioContext.destination);
+      
+      // 播放声音
+      oscillator.start();
+      oscillator.stop(audioContext.currentTime + 0.1); // 100毫秒后停止
+    } catch (e) {
+      console.error('播放音效失败:', e);
+      // 失败时静默处理，不影响用户体验
+    }
+  }
+  
   // 自动生成并复制高强度密码
   function autoGenerateAndCopyPassword() {
     // 在极速模式下，生成高强度密码
@@ -1054,6 +1084,7 @@ document.addEventListener('DOMContentLoaded', function() {
     navigator.clipboard.writeText(password).then(() => {
       // 显示复制按钮的成功状态
       showCopyButtonSuccess();
+      playPopSound(); // 在所有模式下复制密码时播放音效
     });
   }
   

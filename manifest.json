@@ -14,7 +14,8 @@
   },
   "permissions": [
     "storage",
-    "clipboardWrite"
+    "clipboardWrite",
+    "audio"
   ],
   "content_scripts": [
     {
