@@ -7,10 +7,13 @@
 const keyIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="randpass-icon"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>`;
 const checkIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="randpass-notification-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
 
+// 存储已处理的密码字段
+const processedFields = new WeakSet();
+
 // 监听DOM变化，检测新添加的密码输入框
 const observer = new MutationObserver(function(mutations) {
   mutations.forEach(function(mutation) {
-    if (mutation.addedNodes) {
+    if (mutation.addedNodes && mutation.addedNodes.length > 0) {
       mutation.addedNodes.forEach(function(node) {
         if (node.nodeType === 1) { // 元素节点
           checkForPasswordFields(node);
@@ -31,32 +34,35 @@ function checkForPasswordFields(rootNode) {
 // 添加生成按钮到密码输入框
 function addGenerateButton(passwordField) {
   // 避免重复添加
-  if (passwordField.dataset.randpassButton) return;
-  passwordField.dataset.randpassButton = 'true';
-  
-  // 获取输入框的位置和尺寸
-  const fieldRect = passwordField.getBoundingClientRect();
-  const fieldStyle = window.getComputedStyle(passwordField);
-  
-  // 创建按钮容器
-  const buttonContainer = document.createElement('div');
-  buttonContainer.className = 'randpass-button-container';
-  
-  // 包装密码输入框
-  const parent = passwordField.parentNode;
-  parent.insertBefore(buttonContainer, passwordField);
-  buttonContainer.appendChild(passwordField);
+  if (processedFields.has(passwordField)) return;
+  processedFields.add(passwordField);
   
   // 创建生成按钮
   const generateButton = document.createElement('button');
+  generateButton.type = 'button'; // 确保不会提交表单
   generateButton.className = 'randpass-generate-button';
-  generateButton.innerHTML = `${keyIconSvg} RandPass`;
+  generateButton.innerHTML = `${keyIconSvg}`;
+  generateButton.title = 'Generate Password with RandPass';
+  generateButton.setAttribute('aria-label', 'Generate Password');
+  
+  // 设置按钮样式，使其不影响原有布局
+  generateButton.style.position = 'absolute';
+  generateButton.style.zIndex = '9999';
   generateButton.style.display = 'none';
   
-  buttonContainer.appendChild(generateButton);
+  // 将按钮添加到body，而不是修改密码字段的DOM结构
+  document.body.appendChild(generateButton);
+  
+  // 更新按钮位置函数
+  const updateButtonPosition = () => {
+    const rect = passwordField.getBoundingClientRect();
+    generateButton.style.top = `${window.scrollY + rect.top + rect.height/2 - 15}px`;
+    generateButton.style.left = `${window.scrollX + rect.right - 30}px`;
+  };
   
   // 显示/隐藏按钮
   passwordField.addEventListener('focus', function() {
+    updateButtonPosition();
     generateButton.style.display = 'flex';
   });
   
@@ -69,11 +75,16 @@ function addGenerateButton(passwordField) {
     }, 200);
   });
   
+  // 监听窗口大小变化和滚动，更新按钮位置
+  window.addEventListener('resize', updateButtonPosition);
+  window.addEventListener('scroll', updateButtonPosition);
+  
   // 生成密码并填充
   generateButton.addEventListener('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
     generatePasswordForSite(passwordField);
+    generateButton.style.display = 'none';
   });
 }
 

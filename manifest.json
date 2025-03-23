@@ -14,8 +14,7 @@
   },
   "permissions": [
     "storage",
-    "clipboardWrite",
-    "activeTab"
+    "clipboardWrite"
   ],
   "content_scripts": [
     {

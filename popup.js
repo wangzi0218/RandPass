@@ -130,6 +130,14 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.turbo-inactive').classList.add('hidden');
         document.querySelector('.turbo-active').classList.remove('hidden');
         document.body.classList.add('turbo-mode');
+        
+        // 无论当前在哪个模式，都切换到随机密码模式
+        if (currentMode !== 'random') {
+          switchTab('random');
+          // 更新标签页的视觉状态
+          randomTabEl.click();
+        }
+        
         // 自动生成并复制高强度密码
         autoGenerateAndCopyPassword();
       } else {
